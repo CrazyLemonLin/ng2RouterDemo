@@ -6,12 +6,16 @@ import { appRoutingProviders,routing} from './app.routing';
 import { AppComponent } from './app.component';
 import { RouteNavComponent } from './route-nav/route-nav.component';
 import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RouteNavComponent,
-    HomeComponent
+    HomeComponent,
+    ProfileComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
